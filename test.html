@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script src="localStorageDB.js"></script>
+ <script>
+     //添加
+     /*  localStorageDB('main').add({"name":'小红',"sex":"男"},function (err,result) {
+         if(!err){
+             //do something
+         } else{
+             //do something
+         }
+     });*/
+     //查询单个。
+     /*localStorageDB('main').query({"name":"小红"},function (err,result) {
+         if(!err){
+             //use result to do sth...
+             console.log(result);
+         } else{
+             //do something
+             console.log(err);
+         }
+     });*/
+     //查询所有。如果需要查询集合中所有文档，将参数设置为空即可
+     /*let re=localStorageDB("main").query();
+     console.log(re);*/
+     //修改,默认是'@set'
+     /*localStorageDB('main').update({"name":"xiaoming"},{"sex":"女"});*/
+     //删除单条的信息
+      /*localStorageDB("main").remove({"name":"小红"},function (err,result) {
+        if(!err){
+           console.log(result);
+        }else{
+           console.log(err);
+        }
+      });*/
+     //删除全部的信息
+     /*localStorageDB("main").remove();*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </script>
+</body>
+</html>

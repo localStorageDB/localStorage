@@ -1,0 +1,17 @@
+{
+  "name": "localStorageDB",
+  "main": "localStorageDB.js",
+  "homepage": "https://github.com/localStorageDB/localStorage",
+  "authors":[
+    "syw123456<15003869642@163.com>"
+  ],
+  "description": "localstorageDB is a small library",
+  "keywords": [
+    "localStorage",
+    "html5",
+    "JavaScript",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "private": true
+}
